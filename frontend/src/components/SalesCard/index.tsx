@@ -59,9 +59,9 @@ function SalesCard() {
                         </tr>
                     </thead>
                     <tbody>
-                        {sales.map(sale => {
+                        {sales.map((sale) => {
                             return (
-                                <tr key={sale.id}>
+                                <tr >
                                     <td className="show992">{sale.id}</td>
                                     <td className="show576">{sale.date}</td>
                                     <td>{sale.sellerName}</td>
