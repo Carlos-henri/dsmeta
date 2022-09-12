@@ -1,14 +1,13 @@
 .dsmeta-card {
-    background: #283142;
+    background-color: #283142;
     border-radius: 10px;
     padding: 30px 10px;
 }
 
 .dsmeta-sales-title {
-    color: #676FFF;
+    color: #676fff;
     font-size: 24px;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 20.84px;
+    margin-bottom: 20px;
 }
 
 .dsmeta-form-control-container {
@@ -19,11 +18,11 @@
 .dsmeta-form-control {
     width: 100%;
     height: 46px;
-    background: #1B2531;
+    background-color: #1b2531;
     border: 1px solid #384459;
     border-radius: 5px;
-    color: #9AAABE;
-    padding: 0 21.33px;
+    color: #9aaabe;
+    padding: 0 20px;
     font-size: 18px;
 }
 
@@ -36,54 +35,54 @@
 .dsmeta-sales-table thead {
     height: 55px;
     font-size: 16px;
-    color: #E9E9E9;
+    color: #e9e9e9;
     font-weight: 700;
 }
 
 .dsmeta-sales-table tbody {
     font-size: 14px;
     font-weight: 400;
-    color:#CFCFCF;
+    color: #cfcfcf;
     text-align: center;
 }
 
 .dsmeta-sales-table tbody tr {
     height: 74px;
-    border-top: 1px solid #5F6E82;
+    border-top: 1px solid #5f6e82;
 }
 
-.dsmeta-sales-table tbody tr:hover > th {
+.dsmeta-sales-table tbody tr:hover>td {
     background-color: #384459;
 }
 
 .dsmeta-sales-table tbody tr:nth-child(odd) {
-    background-color: #242C3B;
+    background-color: #242c3b;
 }
 
-.dsmeta-button-red-container {
+.dsmeta-red-btn-container {
     display: flex;
     justify-content: center;
 }
 
-.show576{
+.show576 {
     display: none;
 }
 
-.show992{
+.show992 {
     display: none;
 }
 
-@media (min-width: 576px){
-    .show576{
+@media (min-width: 576px) {
+    .show576 {
         display: table-cell;
     }
-    
-    .dsmeta-card{
-        padding: 35px 32px;
+
+    .dsmeta-card {
+        padding: 35px;
     }
 
     .dsmeta-sales-table tbody tr {
-        height: 52px;
+        height: 55px;
     }
 
     .dsmeta-sales-table tbody {
@@ -91,8 +90,8 @@
     }
 }
 
-@media (min-width: 992px){
-    .show992{
+@media (min-width: 992px) {
+    .show992 {
         display: table-cell;
     }
 }
